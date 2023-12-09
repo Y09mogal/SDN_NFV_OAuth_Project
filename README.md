@@ -1,17 +1,17 @@
-# Final Project
+# SDN final project
 
-SDN final project
+## Setup
+Installation steps for setting up the required tech stack for building and running this project are as follows in the same order:
 
-## Installing and Setting up flutter
+### Flutter:
+To set up Flutter for the application, follow the instructions provided here [Flutter documentation](https://docs.flutter.dev/get-started/install).
 
-Refer the following link to install and setup required tech stack for the application: https://docs.flutter.dev/get-started/install
+### Andriod Studio:
+You need to set up Android Studio and the command-line tools for the Android SDK after setting up Flutter.
 
-After installing Flutter, we would also need to install Android-studio and command-line tools for Android SDK:
+Steps:
 
-1) Install and setup android-studio from this link: https://developer.android.com/studio/install
-
-NOTE: For Linux/Ubuntu, android-studio is already an application available on Ubun
-tu Software. We can install it directly from there.
+1) Install and configure [Android Studio](https://developer.android.com/studio/install).
 
 2) Download and setup the command-line-tools by following these steps:
 
@@ -20,23 +20,28 @@ tu Software. We can install it directly from there.
     c) In the "Android SDK" section, go to the SDK Tools section.
     d) Check the box for "Android SDK Command-line Tools (latest)" and click ok
 
-3) Running "flutter doctor" would ask you to acccept some android-licenses. Run the following command to fix this:
+3) Running "flutter doctor" to check the setup of flutter android licenses. However, upon running this, it may ask you to agree/disagree with some licenses. Run the following command to fix this:
+```
+flutter doctor --android-licenses
+```
+## Running the application 
+This can be done in two ways:
 
- flutter doctor --android-licenses
+1) Setup an [android emulator](https://developer.android.com/studio/run/managing-avds).
+2) For running on your local Android device requires activating USB-debugging in the developer options. Use this [link](https://developer.android.com/studio/run/device) as reference to do so.
 
-4) Running the application: This can be done in two ways
-
-    a) Setup an android emulator: https://developer.android.com/studio/run/managing-avds
-    b) Running on your local android device: This requires for activating USB-debugging in the developer options. Follow this link to do so: https://developer.android.com/studio/run/device
-
-This concludes the setup for Flutter.
+Setup for Flutter is accomplished
 
 ## Clone the project
 
-Clone the project from the repository: https://github.com/ishaanj0412/SDN_project
+Clone the project from the [repository](https://github.com/Y09mogal/SDN_NFV_OAuth_Project)
 
-## Running the application
-
-1) Start the emulator or connect or android mobile with your laptop and allow for USB debugging.
-2) Run the application using command: "flutter run"
+## Steps to run the App:
+1) Start the emulator or connect or android mobile with your laptop and allow for USB debugging as discussed above.
+2) Run the application using following command:
+```
+flutter run
+```
 3) Select the device you want to run the application on.
+
+
