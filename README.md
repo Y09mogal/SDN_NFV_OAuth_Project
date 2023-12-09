@@ -16,7 +16,7 @@ Steps:
 2) Download and setup the command-line-tools by following these steps:
 
     a) Open android-studio
-    b) Click on "More Actions" option on the boot window. Select SDK Manager from the options it shows.
+    b) Click on the "More Actions" option on the boot window. Select SDK Manager from the options it shows.
     c) In the "Android SDK" section, go to the SDK Tools section.
     d) Check the box for "Android SDK Command-line Tools (latest)" and click ok
 
@@ -28,17 +28,17 @@ flutter doctor --android-licenses
 This can be done in two ways:
 
 1) Setup an [android emulator](https://developer.android.com/studio/run/managing-avds).
-2) For running on your local Android device requires activating USB-debugging in the developer options. Use this [link](https://developer.android.com/studio/run/device) as reference to do so.
+2) For running on your local Android device requires activating USB-debugging in the developer options. Use this [link](https://developer.android.com/studio/run/device) as a reference to do so.
 
 Setup for Flutter is accomplished
 
 ## Clone the project
 
-Clone the project from the [repository](https://github.com/Y09mogal/SDN_NFV_OAuth_Project)
+Clone the project from the [repository](https://github.com/Y09mogal/SDN_NFV_OAuth_Project) link.
 
 ## Steps to run the App:
-1) Start the emulator or connect or android mobile with your laptop and allow for USB debugging as discussed above.
-2) Run the application using following command:
+1) Start the emulator or connect or Android mobile with your laptop and allow for USB debugging as discussed above.
+2) Run the application using the following command:
 ```
 flutter run
 ```
