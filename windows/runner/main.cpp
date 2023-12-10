@@ -27,11 +27,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
-<<<<<<< HEAD
   if (!window.Create(L"ydm_sdn_project", origin, size)) {
-=======
-  if (!window.CreateAndShow(L"modernlogintute", origin, size)) {
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);

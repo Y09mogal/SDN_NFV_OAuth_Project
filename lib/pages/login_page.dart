@@ -1,18 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'package:ydm_sdn_project/components/my_button.dart';
 import 'package:ydm_sdn_project/components/my_textfield.dart';
 import 'package:ydm_sdn_project/components/square_tile.dart';
 import 'package:ydm_sdn_project/services/auth_service.dart';
 import 'package:ydm_sdn_project/pages/forgot_password_page.dart';
-=======
-import 'package:modernlogintute/components/my_button.dart';
-import 'package:modernlogintute/components/my_textfield.dart';
-import 'package:modernlogintute/components/square_tile.dart';
-import 'package:modernlogintute/services/auth_service.dart';
-import 'package:modernlogintute/pages/forgot_password_page.dart';
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
 
 class LoginPage extends StatefulWidget {
   final Function()? onTap;
@@ -101,11 +93,7 @@ class _LoginPageState extends State<LoginPage> {
 
                 // hello message
                 Text(
-<<<<<<< HEAD
                   'Welcome to FlexiGo!',
-=======
-                  'Welcome to MetroFinder!',
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
                   style: TextStyle(
                     color: Colors.grey[700],
                     fontSize: 16,

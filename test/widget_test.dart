@@ -8,11 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-<<<<<<< HEAD
 import 'package:ydm_sdn_project/main.dart';
-=======
-import 'package:modernlogintute/main.dart';
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

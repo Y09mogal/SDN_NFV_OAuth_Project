@@ -90,21 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-<<<<<<< HEAD
             VALUE "FileDescription", "ydm_sdn_project" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "ydm_sdn_project" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "ydm_sdn_project.exe" "\0"
             VALUE "ProductName", "ydm_sdn_project" "\0"
-=======
-            VALUE "FileDescription", "modernlogintute" "\0"
-            VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "modernlogintute" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "modernlogintute.exe" "\0"
-            VALUE "ProductName", "modernlogintute" "\0"
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

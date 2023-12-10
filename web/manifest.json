@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
     "name": "ydm_sdn_project",
     "short_name": "ydm_sdn_project",
-=======
-    "name": "modernlogintute",
-    "short_name": "modernlogintute",
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

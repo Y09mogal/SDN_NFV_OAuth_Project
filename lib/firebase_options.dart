@@ -44,7 +44,6 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-<<<<<<< HEAD
     apiKey: 'AIzaSyDT_Pw9V9c_AtMUKM1m3PVF1zrUhWg1HGk',
     appId: '1:39926660401:web:25e71131de35c792678410',
     messagingSenderId: '39926660401',
@@ -78,39 +77,5 @@ class DefaultFirebaseOptions {
     projectId: 'sdnoauth',
     storageBucket: 'sdnoauth.appspot.com',
     iosBundleId: 'com.example.ydmSdnProject.RunnerTests',
-=======
-    apiKey: 'AIzaSyAWzdYQ0bGXSUiyLS91hRwNHvJ8JFZ0J6s',
-    appId: '1:714534055667:web:618b7e7250e95411a79186',
-    messagingSenderId: '714534055667',
-    projectId: 'project-sdn',
-    authDomain: 'project-sdn.firebaseapp.com',
-    storageBucket: 'project-sdn.appspot.com',
-  );
-
-  static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBt-Gsz2g42IF3aXHSl4prNiVdkP7fI6LQ',
-    appId: '1:714534055667:android:b1931f80fe261950a79186',
-    messagingSenderId: '714534055667',
-    projectId: 'project-sdn',
-    storageBucket: 'project-sdn.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBClEYNxc_EsIWJ8aO6pNG2UQnJDDxeogM',
-    appId: '1:714534055667:ios:d50fc7277942d0dea79186',
-    messagingSenderId: '714534055667',
-    projectId: 'project-sdn',
-    storageBucket: 'project-sdn.appspot.com',
-    iosBundleId: 'com.example.modernlogintute',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBClEYNxc_EsIWJ8aO6pNG2UQnJDDxeogM',
-    appId: '1:714534055667:ios:d50fc7277942d0dea79186',
-    messagingSenderId: '714534055667',
-    projectId: 'project-sdn',
-    storageBucket: 'project-sdn.appspot.com',
-    iosBundleId: 'com.example.modernlogintute',
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
   );
 }

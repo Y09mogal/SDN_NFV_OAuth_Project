@@ -1,16 +1,12 @@
 #include "win32_window.h"
 
-<<<<<<< HEAD
 #include <dwmapi.h>
-=======
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
 #include <flutter_windows.h>
 
 #include "resource.h"
 
 namespace {
 
-<<<<<<< HEAD
 /// Window attribute that enables dark mode window decorations.
 ///
 /// Redefined in case the developer's machine has a Windows SDK older than
@@ -30,10 +26,6 @@ constexpr const wchar_t kGetPreferredBrightnessRegKey[] =
   L"Software\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize";
 constexpr const wchar_t kGetPreferredBrightnessRegValue[] = L"AppsUseLightTheme";
 
-=======
-constexpr const wchar_t kWindowClassName[] = L"FLUTTER_RUNNER_WIN32_WINDOW";
-
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
 // The number of Win32Window objects that currently exist.
 static int g_active_window_count = 0;
 
@@ -57,13 +49,8 @@ void EnableFullDpiSupportIfAvailable(HWND hwnd) {
           GetProcAddress(user32_module, "EnableNonClientDpiScaling"));
   if (enable_non_client_dpi_scaling != nullptr) {
     enable_non_client_dpi_scaling(hwnd);
-<<<<<<< HEAD
   }
   FreeLibrary(user32_module);
-=======
-    FreeLibrary(user32_module);
-  }
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
 }
 
 }  // namespace
@@ -73,11 +60,7 @@ class WindowClassRegistrar {
  public:
   ~WindowClassRegistrar() = default;
 
-<<<<<<< HEAD
   // Returns the singleton registrar instance.
-=======
-  // Returns the singleton registar instance.
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
   static WindowClassRegistrar* GetInstance() {
     if (!instance_) {
       instance_ = new WindowClassRegistrar();
@@ -137,15 +120,9 @@ Win32Window::~Win32Window() {
   Destroy();
 }
 
-<<<<<<< HEAD
 bool Win32Window::Create(const std::wstring& title,
                          const Point& origin,
                          const Size& size) {
-=======
-bool Win32Window::CreateAndShow(const std::wstring& title,
-                                const Point& origin,
-                                const Size& size) {
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
   Destroy();
 
   const wchar_t* window_class =
@@ -158,11 +135,7 @@ bool Win32Window::CreateAndShow(const std::wstring& title,
   double scale_factor = dpi / 96.0;
 
   HWND window = CreateWindow(
-<<<<<<< HEAD
       window_class, title.c_str(), WS_OVERLAPPEDWINDOW,
-=======
-      window_class, title.c_str(), WS_OVERLAPPEDWINDOW | WS_VISIBLE,
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
       Scale(origin.x, scale_factor), Scale(origin.y, scale_factor),
       Scale(size.width, scale_factor), Scale(size.height, scale_factor),
       nullptr, nullptr, GetModuleHandle(nullptr), this);
@@ -171,7 +144,6 @@ bool Win32Window::CreateAndShow(const std::wstring& title,
     return false;
   }
 
-<<<<<<< HEAD
   UpdateTheme(window);
 
   return OnCreate();
@@ -181,11 +153,6 @@ bool Win32Window::Show() {
   return ShowWindow(window_handle_, SW_SHOWNORMAL);
 }
 
-=======
-  return OnCreate();
-}
-
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
 // static
 LRESULT CALLBACK Win32Window::WndProc(HWND const window,
                                       UINT const message,
@@ -245,13 +212,10 @@ Win32Window::MessageHandler(HWND hwnd,
         SetFocus(child_content_);
       }
       return 0;
-<<<<<<< HEAD
 
     case WM_DWMCOLORIZATIONCOLORCHANGED:
       UpdateTheme(hwnd);
       return 0;
-=======
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
   }
 
   return DefWindowProc(window_handle_, message, wparam, lparam);
@@ -307,7 +271,6 @@ bool Win32Window::OnCreate() {
 void Win32Window::OnDestroy() {
   // No-op; provided for subclasses.
 }
-<<<<<<< HEAD
 
 void Win32Window::UpdateTheme(HWND const window) {
   DWORD light_mode;
@@ -323,5 +286,3 @@ void Win32Window::UpdateTheme(HWND const window) {
                           &enable_dark_mode, sizeof(enable_dark_mode));
   }
 }
-=======
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060

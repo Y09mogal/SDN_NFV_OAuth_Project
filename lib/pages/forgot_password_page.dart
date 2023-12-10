@@ -1,12 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
 import 'package:ydm_sdn_project/components/my_button.dart';
 import 'package:ydm_sdn_project/components/my_textfield.dart';
-=======
-import 'package:modernlogintute/components/my_button.dart';
-import 'package:modernlogintute/components/my_textfield.dart';
->>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
 
 class ForgotPasswordPage extends StatefulWidget {
   const ForgotPasswordPage({Key? key});

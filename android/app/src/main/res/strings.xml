@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resource>
-    <string name="app_name">modern login flutter</string>
-    <string name="facebook_app_id">768144805329018</string>
-    <string name="fb_login_protocol_scheme">fb768144805329018</string>
-    <string name="facebook_client_token">d67c88dfcd4c4348345ce04fc6067236</string>
-</resource>
