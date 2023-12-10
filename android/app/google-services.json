@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "39926660401",
+    "project_id": "sdnoauth",
+    "storage_bucket": "sdnoauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39926660401:android:b4d3eac026c1ef0c678410",
+        "android_client_info": {
+          "package_name": "com.example.ydm_sdn_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGy6HGzfgnlb6semnlNWGthfICtsITyd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
