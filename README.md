@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SDN final project
 ## Setup
 Installation steps for setting up the required tech stack for building and running this project are as follows in the same order:
@@ -40,3 +41,6 @@ flutter run
 
 NOTE: Facebook OAuth login doesn't work on latest Andriod version 3.
 
+=======
+# OAuth-Login-App
+>>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060

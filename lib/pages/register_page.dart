@@ -1,9 +1,16 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:ydm_sdn_project/components/my_button.dart';
 import 'package:ydm_sdn_project/components/my_textfield.dart';
 import 'package:ydm_sdn_project/components/square_tile.dart';
 import 'package:ydm_sdn_project/services/auth_service.dart';
+=======
+import 'package:modernlogintute/components/my_button.dart';
+import 'package:modernlogintute/components/my_textfield.dart';
+import 'package:modernlogintute/components/square_tile.dart';
+import 'package:modernlogintute/services/auth_service.dart';
+>>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class RegisterPage extends StatefulWidget {

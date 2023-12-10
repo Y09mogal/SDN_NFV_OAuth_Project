@@ -26,6 +26,7 @@ bool FlutterWindow::OnCreate() {
   }
   RegisterPlugins(flutter_controller_->engine());
   SetChildContent(flutter_controller_->view()->GetNativeWindow());
+<<<<<<< HEAD
 
   flutter_controller_->engine()->SetNextFrameCallback([&]() {
     this->Show();
@@ -36,6 +37,8 @@ bool FlutterWindow::OnCreate() {
   // window is shown. It is a no-op if the first frame hasn't completed yet.
   flutter_controller_->ForceRedraw();
 
+=======
+>>>>>>> 8780d5b6590d5d159d5adc53799c8b63562e2060
   return true;
 }
 
